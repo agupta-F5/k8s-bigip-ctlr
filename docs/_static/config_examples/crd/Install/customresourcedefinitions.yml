@@ -241,6 +241,8 @@ spec:
                     type: string
                     pattern: '^\/([A-z0-9-_+]+\/)*([A-z0-9-_]+\/?)*$'
                   type: array
+                ipamLabel:
+                  type: string
                 serviceAddress:
                   type: array
                   maxItems: 1
@@ -287,7 +289,6 @@ spec:
                       - service
                       - servicePort
               required:
-                - virtualServerAddress
                 - virtualServerPort
                 - pool
       additionalPrinterColumns:

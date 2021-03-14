@@ -180,7 +180,7 @@ Known Issues:
 | ------ | ------ | ------ | ------ | ------ |
 | host | String | Optional | NA |  Virtual Host |
 | pools | List of pool | Required | NA | List of BIG-IP Pool members |
-| virtualServerAddress | String | Required | NA | IP Address of BIG-IP Virtual Server. IP address can also be replaced by a reference to a Service_Address. |
+| virtualServerAddress | String | Optional | NA | IP Address of BIG-IP Virtual Server. IP address can also be replaced by a reference to a Service_Address. |
 | virtualServerName | String | Optional | NA | Custom name of BIG-IP Virtual Server |
 | TLSProfile | String | Optional | NA | Describes the TLS configuration for BIG-IP Virtual Server |
 | rewriteAppRoot | String | Optional | NA |  Rewrites the path in the HTTP Header (and Redirects) from \"/" (root path) to specifed path |
@@ -247,7 +247,7 @@ Known Issues:
 | PARAMETER | TYPE | REQUIRED | DEFAULT | DESCRIPTION |
 | ------ | ------ | ------ | ------ | ------ |
 | pool | pool | Required | NA | BIG-IP Pool member |
-| virtualServerAddress | String | Required | NA | IP Address of BIG-IP Virtual Server. IP address can also be replaced by a reference to a Service_Address. |
+| virtualServerAddress | String | Optional | NA | IP Address of BIG-IP Virtual Server. IP address can also be replaced by a reference to a Service_Address. |
 | virtualServerPort | String | Required | NA | Port Address of BIG-IP Virtual Server |
 | virtualServerName | String | Optional | NA | Custom name of BIG-IP Virtual Server |
 | type | String | Optional | tcp | "tcp" or "udp" L4 transport server type |
